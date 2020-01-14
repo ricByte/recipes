@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Search.css'
 
 export default class Search extends Component<{ results: any, fetchStatus: any, onFetch: Function }> {
     componentDidMount() {
@@ -14,11 +15,11 @@ export default class Search extends Component<{ results: any, fetchStatus: any, 
                     return onFetch({value: ev.target.value});
                 } }
                        placeholder="enter keywords"/>
-                <div>
+                <div className="Recipe-Container">
                     {
                         results && results.recipes && results.recipes.map((item: any) => {
                             return (
-                                <div key={ item.title }>
+                                <div key={ item.title } className="Recipe">
                                     <span>Title: { item.title }</span><br/>
                                     <div>Description: { item.description }</div>
                                 </div>

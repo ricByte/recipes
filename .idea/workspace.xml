@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="33e5aadb-a6aa-48e6-a615-5499f22f9459" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/search/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search/Search.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,18 +29,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-        <option value="$PROJECT_DIR$/.idea/test.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/cssxfire.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectId" id="1WOM7FiyY8doIQxoWObOqBPNatM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -93,7 +82,7 @@
       <updated>1579016018574</updated>
       <workItem from="1579016019700" duration="4688000" />
       <workItem from="1579020751406" duration="4822000" />
-      <workItem from="1579025677628" duration="320000" />
+      <workItem from="1579025677628" duration="710000" />
     </task>
     <servers />
   </component>
