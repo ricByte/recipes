@@ -1,0 +1,17 @@
+.Pagination {
+
+}
+
+.Page{
+    border: 1px solid slategray;
+    border-radius: 10px;
+    padding: 10px;
+    width:100%
+}
+.Page:hover {
+    cursor: pointer;
+    background: #ccc
+}
+.Page.current {
+      color: red
+}

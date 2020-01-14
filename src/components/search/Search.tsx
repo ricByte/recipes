@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Search.css'
+import Pagination from '../pagination/Pagination';
 
 export default class Search extends Component<{ results: any, fetchStatus: any, onFetch: Function }> {
     componentDidMount() {
@@ -26,6 +27,10 @@ export default class Search extends Component<{ results: any, fetchStatus: any, 
                             );
                         })
                     }
+                    {
+                        results && results.totalPages && <Pagination currentPage={results.currentPage} totalPages={results.totalPages} onFetch={onFetch}/>
+                    }
+
                 </div>
             </div>
         );
