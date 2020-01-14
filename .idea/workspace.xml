@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33e5aadb-a6aa-48e6-a615-5499f22f9459" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/page/Page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pagination/Page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/search/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search/Search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/search/ducks/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search/ducks/actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/search/ducks/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search/ducks/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/search/logic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search/logic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/rootLogic.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/rootLogic.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -83,7 +87,7 @@
       <updated>1579016018574</updated>
       <workItem from="1579016019700" duration="4688000" />
       <workItem from="1579020751406" duration="4822000" />
-      <workItem from="1579025677628" duration="2283000" />
+      <workItem from="1579025677628" duration="4674000" />
     </task>
     <servers />
   </component>
@@ -109,5 +113,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>
 </project>

@@ -1,4 +1,3 @@
-
 // unique key namespace used by combineReducers.
 // By convention it will match the directory structure to
 // make it easy to locate the src.
@@ -10,10 +9,13 @@ export const SEARCH = 'SEARCH';
 export const SEARCH_FULFILLED = 'SEARCH_FULFILLED';
 export const SEARCH_REJECTED = 'SEARCH_REJECTED';
 
+export const DELETE = 'DELETE';
+
 export const actionTypes = {
-  SEARCH,
-  SEARCH_FULFILLED,
-  SEARCH_REJECTED
+    SEARCH,
+    SEARCH_FULFILLED,
+    SEARCH_REJECTED,
+    DELETE
 };
 
 // action creators
@@ -25,6 +27,13 @@ export const search = ev => ({
         pageSize: ev.pageSize
     }
 });
+
+export const deleteItem = id => ({
+    type: DELETE,
+    payload: {
+        value: id
+    }
+});
 export const searchFulfilled = (recipes) => {
     return ({
         type: SEARCH_FULFILLED,
@@ -32,13 +41,14 @@ export const searchFulfilled = (recipes) => {
     });
 };
 export const searchRejected = (err) => ({
-  type: SEARCH_REJECTED,
-  payload: err,
-  error: true
+    type: SEARCH_REJECTED,
+    payload: err,
+    error: true
 });
 
 export const actions = {
-  search,
-  searchFulfilled,
-  searchRejected
+    search,
+    deleteItem,
+    searchFulfilled,
+    searchRejected
 };
