@@ -23,7 +23,7 @@ export default class Search extends Component<{ results: any, fetchStatus: any, 
                             return (
                                 <div key={ item.title } className="Recipe">
                                     <span>Title: { item.title }</span><br/>
-                                    <div>Description: { item.description }</div>
+                                    <div className="Recipe-Description">Description: { item.description }</div>
                                     <Delete id={item.id} deleteItem={onDelete}/>
                                 </div>
                             );
