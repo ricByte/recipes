@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33e5aadb-a6aa-48e6-a615-5499f22f9459" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/search/ducks/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search/ducks/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pagination/Pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pagination/Pagination.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pagination/Pagination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pagination/Pagination.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +82,7 @@
       <updated>1579016018574</updated>
       <workItem from="1579016019700" duration="4688000" />
       <workItem from="1579020751406" duration="4822000" />
-      <workItem from="1579025677628" duration="4793000" />
+      <workItem from="1579025677628" duration="5199000" />
     </task>
     <servers />
   </component>

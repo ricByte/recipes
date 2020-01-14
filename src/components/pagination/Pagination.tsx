@@ -16,7 +16,7 @@ export default class Pagination extends Component<PaginationParameter> {
 
     render() {
         return (
-            <div>
+            <div className={'Pagination'}>
                 {this.createPagination(this.props)}
             </div>
         );
