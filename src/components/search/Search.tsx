@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class Search extends Component<{ results: any, fetchStatus: any, onFetch: any }> {
+export default class Search extends Component<{ results: any, fetchStatus: any, onFetch: Function }> {
     componentDidMount() {
         this.props.onFetch('');
     }
@@ -11,8 +11,7 @@ export default class Search extends Component<{ results: any, fetchStatus: any, 
                 <h3>Search recipes</h3>
                 <div>Status: { fetchStatus }</div>
                 <input autoFocus={true} onChange={ (ev)=> {
-                    console.log(ev);
-                    return onFetch(ev.target.value);
+                    return onFetch({value: ev.target.value});
                 } }
                        placeholder="enter keywords"/>
                 <div>
