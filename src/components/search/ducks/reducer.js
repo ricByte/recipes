@@ -32,7 +32,6 @@ export default function reducer(state = initialState, action) {
                 list: action.payload,
                 fetchStatus: `Results from ${(new Date()).toLocaleString()}`,
                 currentPage: action.payload.currentPage,
-                size: action.payload.totalPages,
                 value: action.payload.value
             };
         case SEARCH_REJECTED:
